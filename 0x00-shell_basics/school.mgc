@@ -1,3 +1,2 @@
 #!/bin/bash
-0 string SCHOOL=Schooldata
-0 /tmp/magic$ file --mime-type -m school.mgc *
+0 string SCHOOL School data !:mime School
