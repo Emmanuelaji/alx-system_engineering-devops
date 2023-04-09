@@ -46,5 +46,5 @@ frontend emmanuel-frontend-https
 
 backend emmanuel-backend
         balance roundrobin
-        server 151666-web-01 54.236.52.4:80 check
-        server 151666-web-02 54.164.134.221:80 check
+        server 143620-web-01 54.236.52.4:80 check
+        server 143620-web-02 54.164.134.221:80 check
