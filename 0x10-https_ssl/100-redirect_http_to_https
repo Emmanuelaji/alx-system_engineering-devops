@@ -19,5 +19,5 @@ frontend th3gr00t-tech-frontend
 
 backend th3gr00t-tech-backend
 	balance roundrobin
-	server 143620-web-01 54.236.52.4:80 check
+	server 143620-web-01 54.237.106.231:80 check
 	server 143620-web-02 54.164.134.221:80 check
