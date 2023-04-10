@@ -38,13 +38,13 @@ defaults
   timeout connect 10s
   timeout server 15s
   timeout http-request 10s
-frontend clickviral-tech-frontend
+frontend emmanuel-tech-frontend
     bind *:80
-    default_backend clickviral-tech-backend
-backend clickviral-tech-backend
+    default_backend emmanuel-tech-backend
+backend emmanuel-tech-backend
     balance roundrobin
-    server 151666-web-01 54.236.52.4:80 check
-    server 151666-web-02 54.164.134.221:80 check
+    server 143620-web-01 54.237.106.231:80 check
+    server 143620-web-02 54.164.134.221:80 check
 "
 
 # shellcheck disable=SC2154
