@@ -38,10 +38,10 @@ defaults
   timeout connect 10s
   timeout server 15s
   timeout http-request 10s
-frontend emmanuel-tech-frontend
+frontend emmanuelaji-tech-frontend
     bind *:80
-    default_backend emmanuel-tech-backend
-backend emmanuel-tech-backend
+    default_backend emmanuelaji-tech-backend
+backend emmanuelaji-tech-backend
     balance roundrobin
     server 143620-web-01 54.237.106.231:80 check
     server 143620-web-02 34.229.55.50:80 check
