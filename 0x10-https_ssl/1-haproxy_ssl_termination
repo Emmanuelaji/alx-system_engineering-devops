@@ -47,5 +47,5 @@ frontend emmanuelaji-frontend-https
 
 backend emmanuelaji-tech-backend
 	balance roundrobin
-	server 143620-web-01 54.237.106.231:80 check
-	server 143620-web-02 34.229.55.50:80 check
+	server 143620-web-01 54.161.237.135:80 check
+	server 143620-web-02 54.85.249.191:80 check
