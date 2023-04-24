@@ -9,7 +9,6 @@ import re
 import requests
 import sys
 
-
 API = "https://jsonplaceholder.typicode.com"
 """REST API url"""
 
